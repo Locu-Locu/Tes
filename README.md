@@ -4,7 +4,7 @@
 </p>
 
 
-          WEBSOCKET / SSH / SSL / XRAY
+          WEBSOCKET / SSH / SSL / XRAY UBUNTU 18.04 ONLY
 
 
 <pre><code>apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/Locu-Locu/Tes/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh</code></pre>
