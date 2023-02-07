@@ -205,7 +205,7 @@ wget https://raw.githubusercontent.com/Locu-Locu/Tes/main/websocket/insshws.sh &
 clear
 wget https://raw.githubusercontent.com/Locu-Locu/Tes/main/websocket/nontls.sh && chmod +x nontls.sh && ./nontls.sh
 clear
-wget https://raw.githubusercontent.com/Locu-Locu/Tes/main/slowdnss/install-sldns.sh && chmod +x install-sldns.sh sed -i -e 's/\r$//' ./install-sldns.sh && ./install-sldns.sh
+wget https://raw.githubusercontent.com/Locu-Locu/Tes/main/slowdnss/install-sldns.sh && chmod +x install-sldns.sh && sed -i -e 's/\r$//' ./install-sldns.sh && ./install-sldns.sh
 clear
 echo -e "$green[INFO]$NC Download Extra Menu"
 sleep 2
