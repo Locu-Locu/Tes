@@ -21,7 +21,7 @@ wget -q -O /usr/bin/menu-tcp "https://raw.githubusercontent.com/Locu-Locu/Tes/ma
 wget -q -O /usr/bin/rebootvps "https://raw.githubusercontent.com/Locu-Locu/Tes/main/corn/rebootvps.sh" && chmod +x /usr/bin/rebootvps
 wget -q -O /usr/bin/menu-dns "https://raw.githubusercontent.com/Locu-Locu/Tes/main/update/menu-dns.sh" && chmod +x /usr/bin/menu-dns
 wget -q -O /usr/bin/info "https://raw.githubusercontent.com/Locu-Locu/Tes/main/slowdnsw/server-sldns.service" && chmod +x /usr/bin/info
-wget -q -O /usr/bin/info "https://raw.githubusercontent.com/Locu-Locu/Tes/main/update/menu.sh" && chmod +x /usr/bin/menu
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/Locu-Locu/Tes/main/update/menu.sh" && chmod +x /usr/bin/menu
 wget -q -O /usr/bin/mspeed "https://raw.githubusercontent.com/Locu-Locu/Tes/main/update/menu-speedtest.sh" && chmod +x /usr/bin/mspeed
 wget -q -O /usr/bin/mbandwith "https://raw.githubusercontent.com/Locu-Locu/Tes/main/update/menu-bandwith.sh" && chmod +x /usr/bin/mbandwith
 echo -e " [INFO] Update Successfully"

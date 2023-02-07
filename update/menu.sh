@@ -1,5 +1,5 @@
 #!/bin/bash
-dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep date | sed -e 's/< Date: //')
+dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 ###########- COLOR CODE -##############
 colornow=$(cat /etc/aixxy7/theme/color.conf)
