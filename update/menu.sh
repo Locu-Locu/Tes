@@ -241,10 +241,10 @@ case $opt in
 08 | 8) clear ; menu-backup ;;
 09 | 9) clear ; menu-set ;;
 10 | 10) clear ; info ;;
-11)  11) clear ; add-host ;;
-12)  12) clear ; crtxray ;;
-13)  13) clear ; $ressee ;;
-14)  14) clear ; $bottt ;;
+11)| 11) clear ; add-host ;;
+12)|  12) clear ; crtxray ;;
+13)|  13) clear ; $ressee ;;
+14)|  14) clear ; $bottt ;;
 100) clear ; $up2u ;; 
 00 | 0) clear ; menu ;;
 *) clear ; menu ;;
