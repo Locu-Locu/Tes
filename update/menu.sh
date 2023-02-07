@@ -237,15 +237,15 @@ case $opt in
 04 | 4) clear ; menu-trojan ;;
 05 | 5) clear ; menu-ss ;;
 06 | 6) clear ; menu-dns ;;
-07 | 7) clear ; menu-theme ;;
-08 | 8) clear ; menu-backup ;;
+06 | 7) clear ; menu-theme ;;
+07 | 8) clear ; menu-backup ;;
 09 | 9) clear ; menu-set ;;
-10 | 10) clear ; info ;;
-11)| 11) clear ; add-host ;;
-12)|  12) clear ; crtxray ;;
-13)|  13) clear ; $ressee ;;
-14)|  14) clear ; $bottt ;;
-100) clear ; $up2u ;; 
+10) clear ; info ;;
+11) clear ; add-host ;;
+12) clear ; crtxray ;;
+13) clear ; $ressee ;;
+14) clear ; $bottt ;;
+100) clear ; $up2u ;;
 00 | 0) clear ; menu ;;
 *) clear ; menu ;;
 esac
