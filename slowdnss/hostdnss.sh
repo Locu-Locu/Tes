@@ -8,8 +8,8 @@ rm nsdomain
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
 DOMAIN=digvpn.my.id
-SUB_DOMAIN=github-${sub}.digvpn.my.id
-NS_DOMAIN=githubsl-${sub}.digvpn.my.id
+SUB_DOMAIN=d-${sub}.digvpn.my.id
+NS_DOMAIN=n-${sub}.digvpn.my.id
 CF_ID=andri.myid@gmail.com
 CF_KEY=1b2fb1e96e256e71b8b707613445dac391f8f
 
