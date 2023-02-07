@@ -238,7 +238,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/Locu-Locu/Tes/main/version  )
+serverV=$( curl -sS https://raw.githubusercontent.com/Locu-Locu/Tes/main/version )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11

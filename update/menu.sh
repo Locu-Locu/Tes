@@ -138,7 +138,7 @@ sleep 2
 sleep 5
 rm /root/install_up.sh
 rm /opt/.ver
-version_up=$( curl -sS https://raw.githubusercontent.com/Locu-Locu/update/main/version_up)
+version_up=$( curl -sS https://raw.githubusercontent.com/Locu-Locu/update/main/version)
 echo "$version_up" > /opt/.ver
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Successfully Up To Date!"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
